@@ -1,0 +1,41 @@
+.heading {
+    height: 480px;
+    padding: 40px 16px 48px;
+
+}
+
+.hero {
+    position: relative;
+    height: 480px;
+    border-radius: 12px;
+    margin: 0 104px;
+    background-image: url('https://assets-global.website-files.com/5f6bd5d85587b65348960e08/61b22f3e2dd3ae7b9a8af7ea_Conceptual-thumbnail.png');
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.hero-header {
+    background-color: #fff;
+    position: absolute;
+    width: 60%;
+    height: 272px;
+    bottom: -32px;
+    padding: 8px 24px 0px 0px;
+    border-radius: 0 16px 0 0;
+
+    h1 {
+        font-weight: 700;
+        line-height: 48px;
+        font-size: 40px;
+        margin: 16px 0 8px;
+        letter-spacing: 4px;
+
+    }
+
+    h2 {
+        font-weight: 400;
+        margin: 12px 0 8px;
+        font-size: 20px;
+    }
+}

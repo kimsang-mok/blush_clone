@@ -1,0 +1,10 @@
+.blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    grid-column-gap: 32px;
+    grid-row-gap: 40px;
+    margin: 0 120px;
+    padding: 48px 0;
+}
